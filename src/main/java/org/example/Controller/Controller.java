@@ -12,6 +12,7 @@ import org.example.User;
 import org.example.UserSrvice;
 import org.example.View.View;
 
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -29,6 +30,8 @@ public class Controller {
 
         View view = new View();
         System.out.println(view.StudentView(users));
+
+        System.out.println("------------------");
 
     }
 }
