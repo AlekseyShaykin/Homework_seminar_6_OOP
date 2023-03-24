@@ -6,6 +6,7 @@ public abstract class User {
 
 
     //  1) Single Responsibility Principle  собдюден. Класс отвечает только за сущность User.
+    // 3) Liskov substitution principle - порожденные классы (User, Teacher) не изменяют поведение родительского класса
 
     Date dateBirth;
     String fio;
