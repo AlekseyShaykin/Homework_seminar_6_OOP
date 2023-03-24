@@ -5,8 +5,8 @@ import java.util.List;
 
 public class UserSrvice implements DataService{
 
-
-    //  1) Single Responsibility Principle  собдюден. Класс отвечает за создание экзепляров класса.
+    //  1) Single Responsibility Principle  соблюден. Класс отвечает за создание экзепляров класса.
+    // 4) Interface segregation principle соблюден. Данный интерфейс реализуется классом UserSrvice целиком и полностью (все 3 метода).
 
 
 
