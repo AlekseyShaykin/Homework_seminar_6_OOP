@@ -4,6 +4,9 @@ import java.util.Date;
 
 public abstract class User {
 
+
+    //  1) Single Responsibility Principle  собдюден. Класс отвечает только за сущность User.
+
     Date dateBirth;
     String fio;
     int ID;

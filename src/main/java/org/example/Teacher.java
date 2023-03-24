@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Teacher extends User {
 
+    //  1) Single Responsibility Principle  собдюден. Класс отвечает только за сущность Teacher.
+
     int exp;
     List<Integer> group;
 

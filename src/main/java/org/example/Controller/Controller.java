@@ -31,7 +31,7 @@ public class Controller {
         View view = new View();
         System.out.println(view.StudentView(users));
 
-        System.out.println("------------------");
+        System.out.println("--------------------");
 
     }
 }

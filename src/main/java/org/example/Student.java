@@ -6,6 +6,8 @@ import java.util.List;
 public class Student extends User{
 
 
+    //  1) Single Responsibility Principle  собдюден. Класс отвечает только за сущность Student.
+
     int groupID;
 
     List<Integer> grade;
